@@ -29,6 +29,12 @@ Our [documentation](https://canyon-project.github.io/canyon.io/docs/get_started/
 - [canyon-platform](https://github.com/canyon-project/canyon-platform)
 - [canyon.io](https://github.com/canyon-project/canyon.io)
 
+## Docker
+
+```bash
+docker run -d --name canyon -v /path/to/application.yml:/usr/src/app/conf/application.yml -p 8080:8080 zhangtao25/canyon:main
+```
+
 ## Contributing
 
 We encourage you to contribute to Canyon! whether thats joining in on the community slack or discourse, or contributing pull requests / documentation changes or raising issues.
